@@ -1,0 +1,28 @@
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+       3      1     48      4       3 yaw_from_quat@20-22@localization_ekf/localization.py
+       7      1     38      1       7 quat_from_yaw@25-31@localization_ekf/localization.py
+       7      3     43      2       7 angle_diff@34-40@localization_ekf/localization.py
+       6      1     67      7       6 __init__@47-52@localization_ekf/localization.py
+      15      2    187      2      19 predict@54-72@localization_ekf/localization.py
+      11      1    151      2      14 update@74-87@localization_ekf/localization.py
+      32      1    171      1      40 __init__@98-137@localization_ekf/localization.py
+       2      2     22      2       2 _clean@141-142@localization_ekf/localization.py
+       4      2     28      1       4 _get_last_yaw@144-147@localization_ekf/localization.py
+       2      1     14      2       2 cb_speed@153-154@localization_ekf/localization.py
+      42      7    295      2      50 cb_mocap@156-205@localization_ekf/localization.py
+      12      1    142      3      16 _publish_pose@207-222@localization_ekf/localization.py
+       6      1     30      0       6 main@228-233@localization_ekf/localization.py
+1 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+    162      11.5     1.8       95.1        13     localization_ekf/localization.py
+
+===============================================================================================================
+No thresholds exceeded (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100)
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+       162      11.5     1.8       95.1       13            0      0.00    0.00

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>localization_kf</name>
+  <version>0.0.0</version>
+  <description>Kalman Filter based localization node using OptiTrack mocap data.</description>
+
+  <maintainer email="mon4565s@hs-coburg.de">Monika Nagarajrao</maintainer>
+  <license>MIT</license>
+
+  <!-- We use ament_python as build type -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>mocap4r2_msgs</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+
+  <!-- Testing -->
+  <test_depend>ament_pytest</test_depend>
+  <test_depend>pytest</test_depend>
+
+  <export>
+    <!-- This tells colcon/ROS that this is a Python package, NOT a CMake one -->
+    <build_type>ament_python</build_type>
+  </export>
+</package>
